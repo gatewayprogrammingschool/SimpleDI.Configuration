@@ -12,6 +12,12 @@
     for defining objects to be instantiated.</description>
     <dependencies>
     </dependencies>
+    <releaseNotes>
+      Version 1.0.0.1
+      Sharp Ninja
+      
+      - Created reusable Loader and Injector 
+    </releaseNotes>
   </metadata>
   <files>
     <file src=".\bin\Release\GPS.SimpleDI.Configuration.*" target="lib\net452" exclude="**\*.nupkg" />

@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GPS.SimpleDI">
+      <HintPath>..\GPS.SimpleID.Configuration.Demo\bin\Debug\GPS.SimpleDI.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -39,6 +42,8 @@
   <ItemGroup>
     <Compile Include="SimpleDiConfigurationSection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DefaultLoader.cs" />
+    <Compile Include="DefaultInjector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GPS.SimpleDI.Configuration.nuspec" />
