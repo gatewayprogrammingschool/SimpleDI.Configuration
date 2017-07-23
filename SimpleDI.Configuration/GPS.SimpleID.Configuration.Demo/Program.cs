@@ -3,6 +3,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using GPS.SimpleDI;
+using GPS.SimpleDI.Configuration;
 using GPS.SimpleExtensions;
 
 namespace GPS.SimpleID.Configuration.Demo
@@ -18,7 +19,7 @@ namespace GPS.SimpleID.Configuration.Demo
         {
             try
             {
-                var injector = SimpleDiFactory.Load<TestInjector>(typeof(TestLoader));
+                var injector = SimpleDiFactory.Load<DefaultInjector>(typeof(Configuration.Program.GenericTestLoader));
 
                 injector.AssertParameterNotNull(nameof(injector), "inject was not created.");
 
