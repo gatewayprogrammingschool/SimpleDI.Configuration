@@ -1,0 +1,19 @@
+<package>
+  <metadata>
+    <id>GPS.SimpleDI.Configuration</id>
+    <version>$Version$</version>
+    <authors>Payton Byrd</authors>
+    <owners>Gateway Programming School, Inc.</owners>
+    <tags>dependency-injection, configuration</tags>
+    <licenseUrl>https://github.com/gatewayprogrammingschool/SimpleMVC/blob/master/LICENSE</licenseUrl>
+    <projectUrl>http://simplemvc.gatewayprogramming.school</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple configuration file (app.config, web.config, machine.config) section provider
+    for defining objects to be instantiated.</description>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src=".\bin\Release\GPS.SimpleDI.Configuration.*" target="lib\net452" exclude="**\*.nupkg" />
+  </files>
+</package>
