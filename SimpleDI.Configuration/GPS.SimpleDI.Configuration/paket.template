@@ -1,0 +1,11 @@
+type project
+licenseUrl https://github.com/gatewayprogrammingschool/SimpleDI.Configuration/blob/master/LICENSE
+projectUrl http://simpledi.gatewayprogramming.school/
+iconUrl http://gatewayprogramming.school/gps.png
+owners Gateway Programming School, Inc.
+authors The Sharp Ninja
+copyright Copyright 2017 (c) Gateway Programming School, Inc.
+summary .Net Configuration (XML) file config section definition for GPS.SimpleDI.
+tags dependency-inject
+include-pdbs true
+
