@@ -47,12 +47,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="GPS.SimpleDI">
-      <HintPath>..\GPS.SimpleDI.Configuration.Tests\bin\Debug\GPS.SimpleDI.dll</HintPath>
-    </Reference>
-    <Reference Include="GPS.SimpleExtensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\GPS.SimpleExtensions.1.0.0.0\lib\net452\GPS.SimpleExtensions.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -64,13 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\GPS.SimpleDI.Configuration\GPS.SimpleDI.Configuration.csproj">
-      <Project>{A42EE55C-FF5D-4E90-9A1F-22FA31EA77BF}</Project>
-      <Name>GPS.SimpleDI.Configuration</Name>
-    </ProjectReference>
+    <None Include="paket.references" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">

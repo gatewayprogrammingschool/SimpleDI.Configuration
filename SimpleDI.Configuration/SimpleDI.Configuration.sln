@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{25196402-E54A-4605-9D38-70B1F70695F7}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+		paket.lock = paket.lock
+	EndProjectSection
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPS.SimpleDI.Configuration", "GPS.SimpleDI.Configuration\GPS.SimpleDI.Configuration.csproj", "{A42EE55C-FF5D-4E90-9A1F-22FA31EA77BF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPS.SimpleID.Configuration.Demo", "GPS.SimpleID.Configuration.Demo\GPS.SimpleID.Configuration.Demo.csproj", "{A840EFEA-6159-4D10-B6AE-3F10459B028F}"
@@ -10,6 +16,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1D4D6113-6108-4446-8439-0EE3CDBED40A}"
 	ProjectSection(SolutionItems) = preProject
 		Deploy.ps1 = Deploy.ps1
+		ReleaseNotes.txt = ReleaseNotes.txt
 	EndProjectSection
 EndProject
 Global
